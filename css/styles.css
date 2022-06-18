@@ -16,6 +16,7 @@ h1 {
   font-size: 3.7rem;
   line-height: 1.5;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 h2 {
@@ -90,6 +91,12 @@ p {
   color: #fff;
 }
 
+.testimonial-header {
+  padding: 3% 20% 3%;
+  font-size: 3rem;
+  font-weight: 900;
+}
+  
 .carousel-item {
   padding: 7% 30%;
 }
@@ -130,5 +137,5 @@ p {
 /* footer */
 #footer {
   text-align: center;
-  padding: 5%;
+  padding: 5% 5%;
 }
