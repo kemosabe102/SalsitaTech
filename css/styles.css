@@ -6,8 +6,8 @@
 }
 
 .container-fluid {
-  padding: 1% 10%;
-  text-align: center;
+  padding: 1% 15%;
+  
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
   font-size: 3.7rem;
   line-height: 1.5;
   padding-left: 10px;
-  padding-right: 5px;
+  text-align: center;
 }
 
 h2 {
@@ -98,7 +98,7 @@ p {
 }
   
 .carousel-item {
-  padding: 7% 30%;
+  padding: 2% 30% 5%;
 }
 
 .special-text {
