@@ -17,6 +17,14 @@ h1 {
   line-height: 1.5;
 }
 
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+    padding-right: 2%;
+    font-size: 3.3rem;
+  }
+}
+
 h2 {
   line-height: 1.5em;
 }
