@@ -47,8 +47,9 @@ p {
 }
 
 .nav-link {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.2rem;
+  color: #1D5C63;
 }
 
 
