@@ -189,8 +189,13 @@ p {
    font-size: 3.5rem;
    line-height: 4.5rem;
    color: white;
-
  }
+
+.ctaDescription {
+  padding: 4% 1%;
+  color: white;
+  font-size: 2rem;
+}
 
 /* footer */
 #footer {
