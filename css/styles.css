@@ -13,23 +13,49 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-.container-fluid {
-  padding: 1% 15%;
-  
+.carouselContainer {
+  padding: 7% 5%;
 }
 
-.title-header {
-  text-align: left;
+.titleCarousel {
+  font-family: "Montserrat";
   font-weight: 900;
   font-size: 3.7rem;
-  
+  line-height: 1.5;
+  padding: 5% 15%;
 }
+
+.rainbowWord1{
+  background: linear-gradient(to right, #FF165D, #FF9A00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.rainbowWord2{
+  background: linear-gradient(to left, #FF165D, #FF9A00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .titleImg {
+  width: 20%;
+  border-radius: 90%;
+  margin: 5% 30%;
+} */
+
+
+.titleButtons {
+  text-align: center;
+}
+
+
 
 @media (max-width: 500px) {
   h1 {
     text-align: center;
     padding-right: 2%;
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 }
 
