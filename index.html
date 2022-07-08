@@ -48,21 +48,46 @@
 
 
       <!-- Title -->
-      <div class="row">
-        <div class="col-lg-6">
-          <h1 class="title-header">Solve all your technology problems with one solution.</h1>
-          <a href="mailto:anthony@salsitatech.com" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-solid fa-paper-plane"></i> Email Salsita</a>
-          <a href="https://www.linkedin.com/in/a-palermo/" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-          
-        </div>
-        <div class="col-lg-6">
-          <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/VdoIFLsMIlwzfKD520" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed title-img"
-              allowFullScreen></iframe></div>
+      <div class="container-fluid carouselContainer">
+        <div id="carouselTitle" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselTitle" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselTitle" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselTitle" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                  <h1 class="titleCarousel"> <span class="rainbowWord1">Empowering</span> and <span class="rainbowWord2">accelerating</span> development teams</h1>
+                  <!-- <img src="paperCheckIcon.png" class="titleImg" alt="paper-icon"> -->
 
+            </div>
+            <div class="carousel-item">
+                  <h1 class="titleCarousel"> Guiding companies along the <span class="rainbowWord1">SRE journey</span></h1>
+                  <!-- <img src="manSearchingPic.png" class="titleImg" alt="guiding-pic"> -->
+            </div>
+            <div class="carousel-item">
+              <h1 class="titleCarousel"> Maximizing <span class="rainbowWord1">business value</span> with FinOps</h1>
+              <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselTitle" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselTitle" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </div>
+
+      <div class="container-fluid titleButtons">
+        <a href="mailto:anthony@salsitatech.com" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-solid fa-paper-plane"></i> Email Salsita</a>
+        <a href="https://www.linkedin.com/in/a-palermo/" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
       </div>
     </div>
   </section>
+  
 
   <!-- Features -->
 
