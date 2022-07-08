@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .carouselContainer {
   padding: 7% 5%;
+  
 }
 
 .titleCarousel {
@@ -23,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3.7rem;
   line-height: 1.5;
   padding: 5% 15%;
+  text-align: left;
 }
 
 .rainbowWord1{
@@ -187,8 +189,13 @@ p {
    font-size: 3.5rem;
    line-height: 4.5rem;
    color: white;
-
  }
+
+.ctaDescription {
+  padding: 4% 1%;
+  color: white;
+  font-size: 2rem;
+}
 
 /* footer */
 #footer {
