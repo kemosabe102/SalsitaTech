@@ -94,25 +94,53 @@ p {
 
 /* Features */
 
+#features {
+  text-align: center;
+}
+
+.featureHeader {
+  font-weight: 900;
+  color: #1D5C63;
+  padding: 3%;
+}
+
 .feature-title {
   font-weight: 900;
+  line-height: 1.5;
+  color: #1D5C63;
 }
 
-.features-row {
-  padding: 10px 10% 10px 10%;
+.features-row{
+  padding: 5% 5%;
 }
 
-.feature-col {
+.salsitaName {
+  font-family: "Lobster";
+  background: linear-gradient(to right, #FF165D, #FF9A00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.featureLeftSide{
+  width: 90%;
+  padding: 30% 2% 0 5%;
+}
+
+
+.featureColLeft {
   padding: 50px 1%;
 }
 
+.featureColRight {
+  padding: 50px 3%;
+}
+
 .feature-img {
-  margin: 0 auto 20px auto;
-  color: #0AA;
+  color: #FF9A00;
 }
 
 .feature-img:hover {
-  color: #1D5C63;
+  color: #FF165D;
 }
 
 
@@ -145,7 +173,7 @@ p {
   font-family: "Lobster";
 }
 
-.row {
+.skillRow {
   padding: 5% 15%;
 }
 
