@@ -14,8 +14,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carouselContainer {
-  padding: 7% 5%;
-  
+  padding: 0;
+}
+
+.slideOne {
+  width: 100%;
+  margin: auto;
 }
 
 .titleCarousel {
@@ -25,6 +29,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   padding: 5% 15%;
   text-align: left;
+}
+
+.carousel-caption {
+	bottom: 20%;
 }
 
 .rainbowWord1{
