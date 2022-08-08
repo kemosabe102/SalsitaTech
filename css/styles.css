@@ -84,6 +84,8 @@ p {
 
 .navbar {
   padding: 0 0 4.5rem;
+  width: 60%;
+  margin: auto;
 }
 
 .navbar-brand {
