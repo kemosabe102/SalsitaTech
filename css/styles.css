@@ -91,6 +91,10 @@ p {
   font-weight: bold;
 }
 
+.navbarLogo {
+  height: 100px; 
+}
+
 .navbar-item {
   padding: 0 18px;
 }
