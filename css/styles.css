@@ -15,12 +15,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .carouselContainer {
   padding: 0;
+  text-align: center;
 }
 
-.slideOne {
+/* .slideOne {
   width: 100%;
   margin: auto;
-}
+} */
 
 .titleCarousel {
   font-family: "Montserrat";
@@ -28,12 +29,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3.7rem;
   line-height: 1.5;
   padding: 5% 15%;
-  text-align: left;
+/*   text-align: left; */
 }
 
-.carousel-caption {
+/* .carousel-caption {
 	bottom: 20%;
-}
+} */
 
 .rainbowWord1{
   background: linear-gradient(to right, #FF165D, #FF9A00);
