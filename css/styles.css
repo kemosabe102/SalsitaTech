@@ -226,3 +226,112 @@ p {
 #footer {
   padding: 5% 5% 1%;
 }
+
+	
+
+/* About Page  */
+#about {
+  background-color: #1D5C63;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.aboutNavBar {
+  background-color: #1D5C63;
+}
+.aboutPaint {
+  padding: 5%;
+  width: 40%;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.aboutHeader {
+  font-family: "Lobster";
+  font-size: 3.5rem;
+  color: #FF9A00;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutParagraph {
+  font-family: "Montserrat";
+  line-height: 1.8;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-top: 25rem;
+  text-align: center;
+  letter-spacing: .2rem;
+  margin: auto;
+  color: white;
+}
+
+.aboutParagraph2 {
+  font-family: "Montserrat";
+  line-height: 1.8;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  letter-spacing: .2rem;
+  padding-top: 2rem;
+}
+
+.aboutCTA {
+  font-family: "Lobster";
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.upsize {
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutPaint {
+    padding: 5%;
+    width: 60%;
+  }
+  .navbarLogo {
+    height: 30px;
+  }
+  #about {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .aboutPaint {
+    padding: 5%;
+    width: 80%;
+  }
+  .aboutHeader {
+    font-size: 3rem;
+  }
+  #about {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media screen and (max-width: 550px) {
+
+  .aboutHeader {
+    font-size: 2.5rem;
+  }
+  .aboutParagraph {
+    font-size: 1rem;
+  }
+
+  .aboutParagraph2 {
+    font-size: 1rem;
+  }
+}
