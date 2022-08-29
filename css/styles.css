@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Title */
 #title {
-  background-color: #0AA;
+  background-color: #1D5C63;
   color: white;
 }
 
@@ -191,7 +191,7 @@ p {
 /* Skill List */
 
 .card-header {
-  color: #0AA;
+  color: #1D5C63;
   font-family: "Lobster";
 }
 
@@ -201,8 +201,9 @@ p {
 
 /* Call to Action */
 #cta {
-  background-color: #0AA;
+  background-color: #1D5C63;
   padding: 6% 23% 4%;
+  color: white;
 }
  .cta-h3 {
    font-weight: 900;
@@ -215,6 +216,7 @@ p {
   padding: 4% 1%;
   color: white;
   font-size: 2rem;
+  font-weight: 900;
 }
 
 /* footer */
