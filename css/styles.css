@@ -181,7 +181,7 @@ p {
 /* Testimonials  */
 
 #testimonials {
-  background-color: #0AA;
+  text-align: center;
   color: #fff;
 }
 
@@ -191,13 +191,50 @@ p {
   font-weight: 900;
 }
   
-.testimonial_carousel_item {
+/* .testimonial_carousel_item {
   padding: 2% 30% 5%;
 }
 
 .special-text {
   font-family: "Lobster";
   color: #1D5C63;
+} */
+
+.autoMargin {
+  margin-left: 6%;
+}
+
+.reviewBg {
+  background-color: #1D5C63;
+  border-radius: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.reviewPhoto {
+  border-radius: 10px 100px / 120px;
+  padding: 5%;
+  width: 50%;
+}
+
+
+
+.reviewTitle{
+  font-family: "Lobster";
+  color: white;
+  font-weight: 600;
+}
+
+.reviewText {
+  color: white;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5%;
+
+}
+.extraWeight {
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 /* Skill List */
