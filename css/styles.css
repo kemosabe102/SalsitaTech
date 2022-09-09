@@ -280,6 +280,7 @@ p {
   background-color: #1D5C63;
   padding-left: 20rem;
   padding-right: 20rem;
+  text-align: center;
 }
 
 .aboutNavBar {
@@ -312,7 +313,6 @@ p {
   font-size: 1.5rem;
   font-weight: 300;
   padding-top: 35rem;
-  text-align: center;
   letter-spacing: .2rem;
   margin: auto;
   color: white;
@@ -324,7 +324,6 @@ p {
   font-size: 1.5rem;
   font-weight: 300;
   color: white;
-  text-align: center;
   letter-spacing: .2rem;
   padding-top: 2rem;
 }
@@ -334,7 +333,7 @@ p {
   color: white;
   text-align: center;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .upsize {
