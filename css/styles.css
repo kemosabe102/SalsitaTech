@@ -321,7 +321,9 @@ p {
 }
 
 .extraSpace {
-  margin: 150px 70px 50px;
+  margin: 150px 80px 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .moveRight{
@@ -357,5 +359,7 @@ p {
 
   .extraSpace{
     margin: 150px 10px 50px;
+    padding-left:10px;
+    padding-right:10px;
   }
 }
