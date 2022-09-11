@@ -363,3 +363,18 @@ p {
     padding-right:10px;
   }
 }
+
+
+/* Contact Page */
+
+.contactForm{
+    margin: 150px 70px 50px;
+    color: white;
+}
+
+.contactHeader{
+  font-size: 2rem;
+  font-family: "Lobster";
+  text-align: center;
+  padding: 20px;
+}
