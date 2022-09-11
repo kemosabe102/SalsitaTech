@@ -358,9 +358,10 @@ p {
   }
 
   .extraSpace{
-    margin: 150px 10px 50px;
+    margin: 150px auto 70px;
     padding-left:10px;
     padding-right:10px;
+    width: 80%;
   }
 }
 
@@ -368,11 +369,13 @@ p {
 /* Contact Page */
 
 .contactForm{
-    margin-top: 150px;
-    padding: 10px 15% 5%;
+    margin-top: 150px auto 50px;
+    padding: 10px 5% 5%;
     color: white;
     text-align: left;
+    width: 80%;
 }
+
 
 .contactHeader{
   font-size: 2rem;
