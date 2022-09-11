@@ -384,6 +384,10 @@ p {
   padding: 20px;
 }
 
+.contactBg{
+  background-color: #1D5C63;
+  border-radius: 4%;
+}
 
 /* Success Page */
 
