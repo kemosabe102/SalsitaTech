@@ -358,9 +358,10 @@ p {
   }
 
   .extraSpace{
-    margin: 150px 10px 50px;
+    margin: 150px auto 70px;
     padding-left:10px;
     padding-right:10px;
+    width: 80%;
   }
 }
 
