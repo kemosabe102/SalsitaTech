@@ -280,10 +280,6 @@ p {
   text-align: center;
 }
 
-/* .aboutNavBar {
-  background-color: #1D5C63;
-} */
-
 .aboutHeader {
   font-family: "Lobster";
   font-size: 3.5rem;
@@ -325,14 +321,17 @@ p {
 }
 
 .extraSpace {
-  margin: 250px 70px 50px;
+  margin: 150px 70px 50px;
 }
 
 .moveRight{
   margin-left: 1rem;
 }
 
-
+.aboutPage{
+	padding-left:0px;
+	padding-right:0px;
+}
 /*Media Queries*/
 @media screen and (max-width: 1200px) {
 
