@@ -321,7 +321,7 @@ p {
 }
 
 .extraSpace {
-  margin: 150px 80px 50px;
+  margin: 150px 80px 80px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -368,8 +368,10 @@ p {
 /* Contact Page */
 
 .contactForm{
-    margin: 150px 70px 50px;
+    margin-top: 150px;
+    padding: 10px 15% 5%;
     color: white;
+    text-align: left;
 }
 
 .contactHeader{
