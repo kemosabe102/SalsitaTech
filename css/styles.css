@@ -9,23 +9,38 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Title */
 #title {
-  background-color: #0AA;
+  background-color: #1D5C63;
   color: white;
+  padding-top: 15%;
 }
 
 .carouselContainer {
-  padding: 7% 5%;
-  
+  padding: 0;
+  text-align: center;
 }
+
+.title_carousel_item {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* .slideOne {
+  width: 100%;
+  margin: auto;
+} */
 
 .titleCarousel {
   font-family: "Montserrat";
   font-weight: 900;
-  font-size: 3.7rem;
+  font-size: 3.2rem;
   line-height: 1.5;
   padding: 5% 15%;
-  text-align: left;
+/*   text-align: left; */
 }
+
+/* .carousel-caption {
+	bottom: 20%;
+} */
 
 .rainbowWord1{
   background: linear-gradient(to right, #FF165D, #FF9A00);
@@ -57,8 +72,16 @@ h1, h2, h3, h4, h5, h6 {
   h1 {
     text-align: center;
     padding-right: 2%;
-    font-size: 3rem;
+    font-size: 2rem;
   }
+	
+ .testimonial-text {
+	 font-size: 1.5rem;
+}
+ .featureHeader {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 }
 
 p {
@@ -74,13 +97,22 @@ p {
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+/*   padding: 0 0 4.5rem; */
+  margin: auto;
+}
+
+.navContainer {
+  width: 60%;
 }
 
 .navbar-brand {
   font-family: "Lobster";
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+.navbarLogo {
+  height: 100px; 
 }
 
 .navbar-item {
@@ -90,7 +122,7 @@ p {
 .nav-link {
   font-weight: 900;
   font-size: 1.3rem;
-  color: white;
+  color: #1D5C63;
 }
 
 
@@ -149,7 +181,7 @@ p {
 /* Testimonials  */
 
 #testimonials {
-  background-color: #0AA;
+  text-align: center;
   color: #fff;
 }
 
@@ -159,19 +191,56 @@ p {
   font-weight: 900;
 }
   
-.carousel-item {
+/* .testimonial_carousel_item {
   padding: 2% 30% 5%;
 }
 
 .special-text {
   font-family: "Lobster";
   color: #1D5C63;
+} */
+
+.autoMargin {
+  margin-left: 6%;
+}
+
+.reviewBg {
+  background-color: #1D5C63;
+  border-radius: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.reviewPhoto {
+  border-radius: 10px 100px / 120px;
+  padding: 5%;
+  width: 50%;
+}
+
+
+
+.reviewTitle{
+  font-family: "Lobster";
+  color: white;
+  font-weight: 600;
+}
+
+.reviewText {
+  color: white;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5%;
+
+}
+.extraWeight {
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 /* Skill List */
 
 .card-header {
-  color: #0AA;
+  color: #1D5C63;
   font-family: "Lobster";
 }
 
@@ -181,8 +250,9 @@ p {
 
 /* Call to Action */
 #cta {
-  background-color: #0AA;
+  background-color: #1D5C63;
   padding: 6% 23% 4%;
+  color: white;
 }
  .cta-h3 {
    font-weight: 900;
@@ -195,9 +265,149 @@ p {
   padding: 4% 1%;
   color: white;
   font-size: 2rem;
+  font-weight: 900;
 }
 
 /* footer */
 #footer {
   padding: 5% 5% 1%;
+}
+
+	
+
+/* About Page  */
+#about {
+  text-align: center;
+}
+
+.aboutHeader {
+  font-family: "Lobster";
+  font-size: 3.5rem;
+  color: white;
+  padding-top: 70px;
+}
+
+.aboutParagraph {
+  font-family: "Montserrat";
+  line-height: 1.8;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-top: 5rem;
+  letter-spacing: .2rem;
+  margin: auto;
+  color: white;
+}
+
+.aboutParagraph2 {
+  font-family: "Montserrat";
+  line-height: 1.8;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+  letter-spacing: .2rem;
+  padding-top: 2rem;
+}
+
+.aboutCTA {
+  font-family: "Lobster";
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.upsize {
+  font-weight: 900;
+}
+
+.extraSpace {
+  margin: 150px 80px 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.moveRight{
+  margin-left: 1rem;
+}
+
+.aboutPage{
+	padding-left:0px;
+	padding-right:0px;
+}
+/*Media Queries*/
+@media screen and (max-width: 1200px) {
+
+  .navbarLogo {
+    height: 30px;
+  }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .aboutHeader {
+    font-size: 2.5rem;
+  }
+  .aboutParagraph {
+    font-size: 1rem;
+  }
+
+  .aboutParagraph2 {
+    font-size: 1rem;
+  }
+
+  .extraSpace{
+    margin: 150px auto 70px;
+    padding-left:10px;
+    padding-right:10px;
+    width: 80%;
+  }
+}
+
+
+/* Contact Page */
+
+.contactForm{
+    margin: 200px auto 50px;
+    padding: 10px 5% 5%;
+    color: white;
+    text-align: left;
+    width: 70%;
+}
+
+
+.contactHeader{
+  font-size: 2.5rem;
+  font-family: "Lobster";
+  text-align: center;
+  padding: 20px;
+}
+
+.contactBg{
+  background-color: #1D5C63;
+  border-radius: 4%;
+}
+
+/* Success Page */
+
+.contactHeader2{
+  font-size: 3rem;
+  font-family: "Lobster";
+  text-align: center;
+  padding: 20px;
+}
+
+.contactSuccess{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.success{
+  border-style: solid;
+  border-color: #1D5C63;
+  border-radius: 20px;
+  border-width: thick;
+  margin-top: 250px;
+  width: 60%;
 }

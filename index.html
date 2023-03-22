@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Salsita Technologies</title>
+  <meta name="description" content="Salsita helps other companies turn frustrations into successes. We streamline DevOps and FinOps to increase profitability
+                                    and decrease build times. Make your team a dream to work on with Salsita.">
 
   <!-- Bootstrap Scripts -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -25,29 +27,39 @@
 
 
 </head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4LPRF1EGC6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-4LPRF1EGC6');
+</script>
 <body>
-  <section id="title">
-    <div class="container-fluid">
 
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Salsita Technologies</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;">
+        <div class="container-fluid navContainer">
+      <a class="navbar-brand" href="index.html"> <img src="android-chrome-512x512.png" alt="Salsita Logo" class="navbarLogo"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ms-auto">
-            <li class="navbar-item"><a class="nav-link" href="mailto:anthony@salsitatech.com">Contact</a></li>
-            <li class="navbar-item"><a class="nav-link" href="#testimonials">Endorsements</a></li>
-          </ul>
-        </div>
-      </nav>
-
-
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto">
+          <li class="navbar-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="navbar-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="navbar-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="navbar-item lastItem"><a class="nav-link" href="#testimonials">Reviews</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
 
       <!-- Title -->
+
+<section id="title">
       <div class="container-fluid carouselContainer">
         <div id="carouselTitle" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
@@ -56,18 +68,24 @@
             <button type="button" data-bs-target="#carouselTitle" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
-                  <h1 class="titleCarousel"> <span class="rainbowWord1">Empowering</span> and <span class="rainbowWord2">accelerating</span> development teams</h1>
-                  <!-- <img src="paperCheckIcon.png" class="titleImg" alt="paper-icon"> -->
+            <div class="carousel-item active title_carousel_item">
+<!--               <img class="d-block slideOne" src="empower_img.jpg" alt="empowering"> -->
+<!--               <div class="carousel-caption d-none d-md-block"> -->
+                <h1 class="titleCarousel"> <span class="rainbowWord1">Empowering</span> and <span class="rainbowWord2">accelerating</span> development teams</h1>
+<!--               </div> -->
 
             </div>
-            <div class="carousel-item">
-                  <h1 class="titleCarousel"> Guiding companies along the <span class="rainbowWord1">SRE journey</span></h1>
-                  <!-- <img src="manSearchingPic.png" class="titleImg" alt="guiding-pic"> -->
+            <div class="carousel-item title_carousel_item">
+<!--               <img src="guide3_img.png" class="d-block slideOne" alt="guiding-pic"> -->
+<!--               <div class="carousel-caption d-none d-md-block"> -->
+                <h1 class="titleCarousel"> Guiding companies along the <span class="rainbowWord1">SRE journey</span></h1>
+<!--               </div> -->
             </div>
-            <div class="carousel-item">
-              <h1 class="titleCarousel"> Maximizing <span class="rainbowWord1">business value</span> with FinOps</h1>
-              <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <div class="carousel-item title_carousel_item">
+<!--               <img src="mountain_img.jpg" class="d-block w-100" alt="..."> -->
+<!--               <div class="carousel-caption d-none d-md-block"> -->
+                <h1 class="titleCarousel"> Maximizing <span class="rainbowWord1">business value</span> with FinOps</h1>
+<!--               </div> -->
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselTitle" data-bs-slide="prev">
@@ -82,12 +100,10 @@
       </div>
 
       <div class="container-fluid titleButtons">
-        <a href="mailto:anthony@salsitatech.com" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-solid fa-paper-plane"></i> Email Salsita</a>
-        <a href="https://www.linkedin.com/in/a-palermo/" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-      </div>
-    </div>
+        <a href="contact.html" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-solid fa-paper-plane"></i> Contact Salsita</a>
+         </div>
+
   </section>
-  
 
   <!-- Features -->
 
@@ -138,19 +154,48 @@
 
   <!-- Testimonials -->
     <section id="testimonials">
-      <h2 class="testimonial-header">Endorsements</h2>
-      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+      
+      
+      <div class="container-fluid" style="background-image: url(lowOpacity2.png);width: 100%">
+        <h2 class="testimonial-header">Fans of Salsita</h2>
+        <div class="row autoMargin">
+          <div class="col-lg-1">
+
+          </div>
+          <div class="col-lg-4 reviewBg">
+            <img src="pointer2.jpg" class="reviewPhoto" alt="dog portrait for user review">
+            <h3 class="reviewTitle">Charu Pasternak</h3>
+            <p class="rainbowWord1 extraWeight">Engineering Manager</p>
+            <p class="reviewText">He is always willing to share his knowledge, document the things he is working on,
+            establishing and streamlining the Devops process.</p>
+          </div>
+          <div class="col-lg-1">
+
+          </div>
+          <div class="col-lg-4 reviewBg">
+            <img src="pointer1.png" class="reviewPhoto" alt="dog portrait for user review">
+            <h3 class="reviewTitle">Nhan N.</h3>
+            <p class="rainbowWord1 extraWeight">Senior Software Engineer</p>
+            <p class="reviewText">Anthony was able to understand the existing infrastructure and propose clear action plans
+              to implement the missing security protocol, CI/CD pipeline optimization, enhancing telemetry, monitoring capabilities of the product.</p>
+          </div>
+          <div class="col-lg-1">
+
+          </div>
+        </div>
+      </div>
+<!--       <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2>Anthony is so much fun to work with, humble, very respectful and so intelligent. He is a<span class="special-text"> problem solver</span>.
+          <div class="carousel-item active testimonial_carousel_item">
+            <h2 class="testimonial-text">Anthony is so much fun to work with, humble, very respectful and so intelligent. He is a<span class="special-text"> problem solver</span>.
               I had the opportunity to work with him on the Voleer platform. He is always willing to share his knowledge, document the things he is working on,
               <span class="special-text">establishing</span> and <span class="special-text">streamlining</span> the Devops process. It is an honor to get to know him and work with him.
             </h2>
             <em>Charu Pasternak, Engineering Manager</em>
           </div>
-          <div class="carousel-item">
-            <h2 class="testimonial-text">Within months of joing the team, Anthony was able to understand the existing infrastructure and proposed clear <span class="special-text">action plans</span>
-              to implement the missing security protocol, CI/CD pipeline optimization, enhancing telemetry, monitoring capabilities of the product.
+          <div class="carousel-item testimonial_carousel_item">
+            <h2 class="testimonial-text">Anthony was able to propose clear <span class="special-text">action plans</span>
+              to implement missing security protocols, CI/CD pipeline optimization, enhancing telemetry, monitoring capabilities of the product.
               Anthony <span class="special-text">single-handedly</span> drove those proposals to completion from meticulous research, cost analysis, building proof-of-concept,
               dealing with legal team on tool purchasing, all the way to running them in production. If you want something done with quality and security,
               <span class="special-text">Anthony is your guy</span>.
@@ -167,7 +212,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> -->
 
     </section>
 
@@ -214,7 +259,7 @@
 
     <h3 class="cta-h3">Find out how I can help</h3>
     <p>Experience fewer incidents, deploy more reliably and frequently, and reign in inflating costs with Salsita Technologies</p>
-    <a href="mailto:anthony@salsitatech.com" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-solid fa-paper-plane"></i> Email Salsita</a>
+    <a href="contact.html" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-solid fa-paper-plane"></i> Contact Salsita</a>
     <a href="https://www.linkedin.com/in/a-palermo/" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
 
   </section>
